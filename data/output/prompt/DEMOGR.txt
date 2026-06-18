@@ -1,0 +1,26 @@
+Act as a data engineer. Generate a valid JSON object containing exactly ONE key: "DEMOGRAPHIC". 
+The value must be a list of exactly 100 distinct, short sentences in English describing data dictionary variables.
+
+Academic Anchors (MANDATORY):
+The first 5 sentences generated MUST be explicit descriptions of these exact concepts from scientific literature:
+["Age", "gender", "ethnicity", "marital status", "family life cycle."]
+
+Expansion Scopes:
+To ensure high vocabulary diversity for the remaining sentences, split them equally across these sub-scopes:
+1. Biological and chronological age metrics.
+2. Gender and ethnicity classifications.
+3. Marital status and legal civil union records.
+4. Family life cycle stages and generational cohorts.
+
+1. Noun Phrase: Start directly with the core business noun.
+2. Passive Voice: Structure the sentence around the measured object being acted upon.
+3. Direct Action: Start with an infinitive verb (To + verb) or an action-derived noun.
+
+Absolute Writing Constraints
+
+- Zero-Gerund Policy: It is STRICTLY FORBIDDEN to use words ending in "-ing" acting as verbs, participles, or connectors (e.g., "using", "indicating", "measuring"). Exception granted ONLY for canonical domain nouns (e.g., "housing", "banking", "schooling").
+- Banned Prefixes: Do not start sentences with "Variable that", "This variable", "Refers to", "Indicates", or "Measures".
+- Length: Keep sentences strictly between 8 and 25 words.
+
+Output format:
+{"DEMOGRAPHIC": ["sentence_1", "sentence_2", ..., "sentence_100"]}

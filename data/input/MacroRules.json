@@ -1,0 +1,62 @@
+{
+    "SOCIOECONOMIC": [
+        "Income, wealth, and family financial background.",
+        "Employment duration, current status, and professional occupation type.",
+        "Home ownership, household size, and number of dependents.",
+        "General education level and broad social class categorization."
+    ],
+    "DEMOGRAPHIC": [
+        "Biological and chronological age metrics.",
+        "Gender and ethnicity classifications.",
+        "Marital status and legal civil union records.",
+        "Family life cycle stages and generational cohorts."
+    ],
+    "VALUES, ATTITUDES and BEHAVIORAL": [
+        "Attitudes toward risk, debt, credit, and perceived financial wellbeing.",
+        "Consumer behavior, spending patterns, and compulsive buying tendencies.",
+        "Financial knowledge, loan intent, and time horizon planning.",
+        "Personal beliefs, religious practices, and socio-motivation factors."
+    ],
+    "INSTITUTIONAL and FINANCIAL": [
+        "Credit history, credit scores, and past payment patterns.",
+        "Current debt load, debt-to-income ratio, and existing commitments.",
+        "Banking relationship length, account balances, and total financial assets.",
+        "Specific loan details, requested amounts, duration, and credit limits."
+    ],
+    "PERSONALITY": [
+        "Emotional stability, neuroticism, and baseline optimism.",
+        "Self-control, impulsiveness, and delay of gratification capabilities.",
+        "Intelligence metrics (IQ) and cognitive self-efficacy.",
+        "Extraversion, agreeableness, conscientiousness, and openness to experience."
+    ],
+    "SITUATIONAL": [
+        "Sudden adverse financial events and sudden loss of primary income.",
+        "Severe family emergencies and unexpected life-altering personal events.",
+        "Major abrupt changes in legal obligations or civil dispute burdens.",
+        "Unforeseen catastrophic property losses or environmental disruptions."
+    ],
+    "EDUCATIONAL": [
+        "Specific academic field of study or major degree program.",
+        "Grade Point Average (GPA) and continuous academic performance scores.",
+        "Current year at school or specific academic semester progress.",
+        "Institutional academic milestones and specific curricular achievements."
+    ],
+    "MACROECONOMIC": [
+        "National inflation rates and Consumer Price Index (CPI) fluctuations.",
+        "Broad economic growth indicators and Gross Domestic Product (GDP) metrics.",
+        "National unemployment rates and systemic labor market trends.",
+        "Central bank interest rates and sovereign monetary policy indicators."
+    ],
+    "HEALTH-RELATED": [
+        "General physical health status and chronic biological conditions.",
+        "Psychological well-being and diagnosed mental health indicators.",
+        "Historical epidemiological records and past medical interventions.",
+        "Acute physical disabilities and temporary physiological impairments."
+    ],
+    "ALTERNATIVE": [
+        "Social network interactions, posting patterns, retweets, and follower metrics.",
+        "Telecommunications usage, SMS frequencies, and daily call slopes.",
+        "Exact geographical location data, including City, State, and Zipcode.",
+        "Hardware telemetry, device specifications, and IP address tracking."
+    ]
+}

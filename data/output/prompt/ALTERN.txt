@@ -1,0 +1,26 @@
+Act as a data engineer. Generate a valid JSON object containing exactly ONE key: "ALTERNATIVE". 
+The value must be a list of exactly 100 distinct, short sentences in English describing data dictionary variables.
+
+Academic Anchors (MANDATORY):
+The first 17 sentences generated MUST be explicit descriptions of these exact concepts from scientific literature:
+["Social network visiting patterns", "posting patterns", "usage of photo for posts", "major things in people’s lives", "qualifications of people within individuals’ network", "social network prestige", "membership score", "retweet behavior", "emoticon utilization", "posting time", "number of followers", "friends", "the slope of daily calls sent", "SMS sending pattern", "number of messages", "disclosure of social media profile", "geographical locations."]
+
+Expansion Scopes:
+To ensure high vocabulary diversity for the remaining sentences, split them equally across these sub-scopes:
+1. Social network interactions, posting patterns, retweets, and follower metrics.
+2. Telecommunications usage, SMS frequencies, and daily call slopes.
+3. Exact geographical location data, including City, State, and Zipcode.
+4. Hardware telemetry, device specifications, and IP address tracking.
+
+1. Noun Phrase: Start directly with the core business noun.
+2. Passive Voice: Structure the sentence around the measured object being acted upon.
+3. Direct Action: Start with an infinitive verb (To + verb) or an action-derived noun.
+
+Absolute Writing Constraints
+
+- Zero-Gerund Policy: It is STRICTLY FORBIDDEN to use words ending in "-ing" acting as verbs, participles, or connectors (e.g., "using", "indicating", "measuring"). Exception granted ONLY for canonical domain nouns (e.g., "housing", "banking", "schooling").
+- Banned Prefixes: Do not start sentences with "Variable that", "This variable", "Refers to", "Indicates", or "Measures".
+- Length: Keep sentences strictly between 8 and 25 words.
+
+Output format:
+{"ALTERNATIVE": ["sentence_1", "sentence_2", ..., "sentence_100"]}

@@ -1,0 +1,52 @@
+flowchart TD
+    subgraph Fase1 [Fase 1: Escalonamento Sintético]
+        direction TB
+        
+        SementesIniciais[(Sementes Base: 30 Variáveis)]
+        GeradorFracionado([Gerador LLM: Geração Fracionada])
+        MotorPerturbacao([Motor NLP: Perturbação e Sinônimos])
+        BaseTreino[(Base de Treino Final: 100/classe)]
+        
+        SementesIniciais -- Rotação Sintática e Escopo --> GeradorFracionado
+        GeradorFracionado -- Variáveis Inéditas --> MotorPerturbacao
+        MotorPerturbacao -- Expansão Léxica Sem Vazamento ---> BaseTreino
+    end
+
+    subgraph Fase2 [Fase 2: Treinamento Bi-Encoder]
+        direction TB
+        
+        PerdaTriplet(Otimizador: Batch Hard Triplet Loss)
+        EncoderTreino([Encoder: SentenceTransformer])
+        MatrizVetoresTreino[/Matriz de Embeddings Calibrada/]
+        ClassificadorLG(Classificador: Regressão Logística)
+        
+        BaseTreino -- Negativos Difíceis / Margem: 0.6 ---> PerdaTriplet
+        PerdaTriplet ---> EncoderTreino
+        EncoderTreino ---> MatrizVetoresTreino
+        MatrizVetoresTreino ---> ClassificadorLG
+    end
+
+    subgraph Fase3 [Fase 3: Triagem e Governança]
+        direction TB
+        
+        MassaProducao[(Input: Lote de Variáveis Legadas)]
+        EncoderInf([Encoder Congelado: SentenceTransformer])
+        MatrizVetoresInf[/Vetor de Embedding da Variável/]
+        ModeloVencedor((Classificador Treinado: LR))
+        DecisaoConfianca{Confiança Preditiva >= 0.65?}
+        
+        ClasseAprovada(Triagem Bem-Sucedida: Classe Validada)
+        ClasseRejeitada(Quarentena: UNCLASSIFIED)
+        RelatorioFinal[Relatório Final de Auditoria]
+        
+        MassaProducao ---> EncoderInf
+        EncoderInf ---> MatrizVetoresInf
+        MatrizVetoresInf ---> ModeloVencedor
+        ModeloVencedor ---> DecisaoConfianca
+        
+        DecisaoConfianca -- Sim --> ClasseAprovada
+        DecisaoConfianca -- Não --> ClasseRejeitada
+        
+        ClasseAprovada ---> RelatorioFinal
+        ClasseRejeitada ---> RelatorioFinal
+    end

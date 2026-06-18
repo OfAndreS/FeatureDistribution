@@ -1,0 +1,84 @@
+vars,macro
+Home ownership,SOCIOECONOMIC
+number of children/dependents,SOCIOECONOMIC
+household size,SOCIOECONOMIC
+length of employment,SOCIOECONOMIC
+employment status,SOCIOECONOMIC
+occupation,SOCIOECONOMIC
+family income,SOCIOECONOMIC
+income,SOCIOECONOMIC
+wealth,SOCIOECONOMIC
+parents’ income,SOCIOECONOMIC
+social class,SOCIOECONOMIC
+education.,SOCIOECONOMIC
+Age,DEMOGRAPHIC
+gender,DEMOGRAPHIC
+ethnicity,DEMOGRAPHIC
+marital status,DEMOGRAPHIC
+family life cycle.,DEMOGRAPHIC
+Socio-motivation/others,"VALUES, ATTITUDES and BEHAVIORAL"
+attitudes toward debt,"VALUES, ATTITUDES and BEHAVIORAL"
+parent facilitation,"VALUES, ATTITUDES and BEHAVIORAL"
+time horizon,"VALUES, ATTITUDES and BEHAVIORAL"
+perceived financial wellbeing,"VALUES, ATTITUDES and BEHAVIORAL"
+attitudes toward positive financial behavior,"VALUES, ATTITUDES and BEHAVIORAL"
+religious practices,"VALUES, ATTITUDES and BEHAVIORAL"
+consumer behavior,"VALUES, ATTITUDES and BEHAVIORAL"
+level of expenditure (spending pattern),"VALUES, ATTITUDES and BEHAVIORAL"
+attitudes toward money/money beliefs and behaviors,"VALUES, ATTITUDES and BEHAVIORAL"
+attitudes toward risk-taking,"VALUES, ATTITUDES and BEHAVIORAL"
+attitudes toward credit,"VALUES, ATTITUDES and BEHAVIORAL"
+compulsive buying,"VALUES, ATTITUDES and BEHAVIORAL"
+delay of gratification,"VALUES, ATTITUDES and BEHAVIORAL"
+financial knowledge.,"VALUES, ATTITUDES and BEHAVIORAL"
+Number of debts,INSTITUTIONAL and FINANCIAL
+length of relationship with the bank,INSTITUTIONAL and FINANCIAL
+number of bank accounts,INSTITUTIONAL and FINANCIAL
+debt to income ratio,INSTITUTIONAL and FINANCIAL
+total financial assets,INSTITUTIONAL and FINANCIAL
+payment pattern,INSTITUTIONAL and FINANCIAL
+credit limit,INSTITUTIONAL and FINANCIAL
+existing credit commitments,INSTITUTIONAL and FINANCIAL
+credit score,INSTITUTIONAL and FINANCIAL
+number of credit cards,INSTITUTIONAL and FINANCIAL
+credit history in the past,INSTITUTIONAL and FINANCIAL
+loan amount,INSTITUTIONAL and FINANCIAL
+taking debt advice,INSTITUTIONAL and FINANCIAL
+loan duration,INSTITUTIONAL and FINANCIAL
+account balance,INSTITUTIONAL and FINANCIAL
+purpose of loan.,INSTITUTIONAL and FINANCIAL
+Self-control,PERSONALITY
+emotional stability/neuroticism,PERSONALITY
+intelligence (IQ score),PERSONALITY
+locus of control,PERSONALITY
+selfefficacy,PERSONALITY
+agreeableness,PERSONALITY
+optimism,PERSONALITY
+selfesteem,PERSONALITY
+extraversion,PERSONALITY
+conscientiousness,PERSONALITY
+openness to experience,PERSONALITY
+impulsiveness.,PERSONALITY
+Adverse life events or life-altering events.,SITUATIONAL
+Field of study,EDUCATIONAL
+GPA (Grade Point Average),EDUCATIONAL
+year at school.,EDUCATIONAL
+General economic indicators such as inflation (CPI) or economic growth (GDP).,MACROECONOMIC
+Physical health status and mental health indicators.,HEALTH-RELATED
+Social network visiting patterns,ALTERNATIVE
+posting patterns,ALTERNATIVE
+usage of photo for posts,ALTERNATIVE
+major things in people’s lives,ALTERNATIVE
+qualifications of people within individuals’ network,ALTERNATIVE
+social network prestige,ALTERNATIVE
+membership score,ALTERNATIVE
+retweet behavior,ALTERNATIVE
+emoticon utilization,ALTERNATIVE
+posting time,ALTERNATIVE
+number of followers,ALTERNATIVE
+friends,ALTERNATIVE
+the slope of daily calls sent,ALTERNATIVE
+SMS sending pattern,ALTERNATIVE
+number of messages,ALTERNATIVE
+disclosure of social media profile,ALTERNATIVE
+geographical locations.,ALTERNATIVE
